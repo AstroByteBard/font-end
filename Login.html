@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - MFU Activity & News</title>
+    <link rel="icon" href="pic/icon.png" type="icon/png">
+    <style>
+
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+            
+        }
+        header {
+            width: 100%;
+            background-color: white; /* กำหนดสีพื้นหลัง */
+            padding: 15px 0;
+            border-bottom: 1px solid #780910; /* ขอบด้านล่างสีแดงเข้ม */
+            box-sizing: border-box; /* ให้ขอบอยู่ภายนอกของ div */
+            display: flex;
+            padding-left: 20px;
+            align-items: center;
+        }
+        .logo {
+            display: flex;
+            justify-content: left;
+            align-items: center;
+        }
+
+        .logo img {
+            height: 70px;
+            width: 70px;
+            margin-right: 10px;
+        }
+
+        .logo-text {
+            font-size: 24px;
+        }
+        .logo-text_head {
+            position: absolute;
+            width: 0px;
+        }
+        .language-switch {
+            position: absolute;
+            right: 50px;
+            display: flex;
+            gap: 15px;
+        }
+
+        .language-switch a {
+            color: #a94442;
+            text-decoration: none;
+            font-size: 24px;
+        }
+
+        .language-switch a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+            <div class="logo">
+                <img src="pic/icon.png" alt="icon">
+                <div class="logo-text_head">
+                    MFU
+                    <div class="logo-text paragraph">
+                        ACTIVITIES & NEWS
+                    </div>
+                </div>
+            </div>
+            <div class="language-switch">
+                <a href="#">EN</a>
+                <span>|</span>
+                <a href="#">TH</a>
+            </div>
+    </header>
+</body>
+</html>
