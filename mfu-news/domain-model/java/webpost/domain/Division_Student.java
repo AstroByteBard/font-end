@@ -1,8 +1,4 @@
-
-
-
-
-
+package java.webpost.domain;
 
 
 
